@@ -2,10 +2,8 @@ name = "connect4-game"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
-# NOTE: To enable D1 database, create it first:
-# wrangler d1 create connect4-db
-# Then uncomment below and add the database_id:
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "connect4-db"
-# database_id = "your-database-id-here"
+# D1 Database for scores
+[[d1_databases]]
+binding = "DB"
+database_name = "connect4-db"
+database_id = "8386f413-7b91-4d20-946e-5ae5a00d94c6"
