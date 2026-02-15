@@ -1,0 +1,12 @@
+{
+  "name": "connect4-game",
+  "version": "1.0.0",
+  "description": "Puissance 4 game with D1 scores",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
